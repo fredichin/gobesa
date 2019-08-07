@@ -43,30 +43,30 @@
 
     <section class="container">
         <div class="content-right">
-            <div class="form">
+            <div class="form" action="enviar.php" method="post">
                 <p class="title mb-0">Exclusivos depas</p>
                 <p class="subtitle">con <span>terraza</span> en <span>Miraflores</span><br>con <span>GOBESA</span></p>
                 <p class="mb-1 font-bold">Conoce más de este proyecto </p>
                 <form class="needs-validation" novalidate>
                     <div class="form-row">
                         <div class="col-md-6 mb-2">
-                            <input type="text" class="form-control" id="" placeholder="Nombre" value="" required>
+                            <input type="text" class="form-control" name="nombre" placeholder="Nombre" value="" required>
                         </div>
                         <div class="col-md-6 mb-2">
-                            <input type="text" class="form-control" id="" placeholder="Apellido" value="" required>
+                            <input type="text" class="form-control" name="apellido" placeholder="Apellido" value="" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-md-6 mb-2">
-                            <input type="text" class="form-control" id="" placeholder="Mail" value="" required>
+                            <input type="text" class="form-control" name="mail" placeholder="Mail" value="" required>
                         </div>
                         <div class="col-md-6 mb-2">
-                            <input type="text" class="form-control" id="" placeholder="Teléfono" value="" required>
+                            <input type="text" class="form-control" name="telefono" placeholder="Teléfono" value="" required>
                         </div>
                     </div>
                     <div class="form-row mt-1">
                         <div class="col-md-12">
-                            <button class="btn btn-primary btn-block" type="submit">Quiero recibir más información</button>
+                            <button class="btn btn-primary btn-block" type="submit" id="boton">Quiero recibir más información</button>
                         </div>
                     </div>
                 </form>
